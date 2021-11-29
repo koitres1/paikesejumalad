@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body, html{
+background: url('https://i.pinimg.com/originals/75/44/35/754435828cc3c8b43b40052cd0adb76a.jpg');
+color:black;
+background-repeat:no-repeat;
+background-size: cover;
+margin:0;
+background-position:50% 50%;
+image-rendering:optimizeQuality;
+}
+
+
+
+
+h1{
+    color:gold;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    font-weight:bold;
+    text-indent: 2%;
+}
+h2{
+    color:gold;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    font-weight:bold;
+    text-indent: 2%;
+}
+
+
+input[type=text] {
+    width: 30%;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px 20px;
+    margin-left: 2%;
+    border: 3px solid rgb(255, 51, 0);
+    border-radius: 6px;
+    background-color:lightskyblue;
+    outline:none;
+    -webkit-transition: 0.2s;
+    transition:0.2s;
+}
+input[type=text]:focus {
+    background-color: lightcyan;
+    border: 3px solid rgb(123, 255, 0);
+    border-radius: 6px;
+}
+input[type=submit] {
+    background-color:rgb(102, 85, 255);
+    border: 3px solid rgb(255, 123, 0);
+    border-radius: 3px;
+    padding: 8px 20px;
+    text-decoration: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 2%;
+    cursor: pointer;
+    box-shadow:0 9px rgb(59, 48, 165);
+}
+input[type=submit]:hover {
+    background-color:rgb(25, 0, 255)
+}
+input[type=submit]:active {
+    border: 3px solid rgb(123, 255, 0);
+    background-color:rgb(25, 0, 255);
+    box-shadow:0 5px rgb(9, 1, 82);
+    transform: translateY(4px);
+}
+#lyrics{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color:rgb(255, 255, 255)
+}
+#tagavara{
+	display:none;
+    margin-left: 2%;
+    margin-bottom:3%;
+    text-align:justify;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(255, 51, 0)
+}
+#info{
+    margin-left: 2%;
+    margin-bottom:3%;
+    text-align:justify;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(255, 51, 0)
+}
+#vidoes{
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+    background-color:rgb(230, 157, 49);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 12px 22px;
+    text-decoration: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 2%;
+    cursor: pointer;
+    box-shadow:0 9px rgb(59, 48, 165);
+    margin-bottom:3%;
+}
+.button:hover{
+    background-color:rgb(177, 121, 38)
+}
+.button:active{
+    border: 3px solid rgb(177, 0, 0);
+    background-color:rgb(177, 121, 38);
+    box-shadow:0 5px rgb(9, 1, 82);
+    transform: translateY(4px);
+}
