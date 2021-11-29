@@ -61,6 +61,7 @@ input[type=submit]:active {
     background-color:rgb(25, 0, 255);
     box-shadow:0 5px rgb(9, 1, 82);
     transform: translateY(4px);
+    color:white;
 }
 #lyrics{
     text-align: center;
@@ -103,4 +104,31 @@ input[type=submit]:active {
     background-color:rgb(177, 121, 38);
     box-shadow:0 5px rgb(9, 1, 82);
     transform: translateY(4px);
+    color:white;
+}
+
+#esimene_nupp, #teine_nupp, #kolmas_nupp{
+    display:inline;
+    float:right;
+    margin-right:20px;
+    background-color:rgb(255, 251, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-weight:bold;
+    box-shadow:0 9px rgb(253, 1, 1);
+    cursor:pointer;
+    color:rgb(31, 27, 70);
+}
+#esimene_nupp:hover, #teine_nupp:hover, #kolmas_nupp:hover{
+    background-color:rgb(92, 192, 62)
+}
+
+#esimene_nupp:active, #teine_nupp:active, #kolmas_nupp:active{
+    border:3px solid white;
+    background-color:rgb(61, 122, 42);
+    box-shadow:0 9px yellow;
+    transform:translateY(4px);
+    color:white;
 }
