@@ -21,7 +21,7 @@ $(document).ready(function () {
             data.items.forEach(item => {
                 video = `
 
-                        <iframe width = "420" height = "315" src ="http://www.youtube.com/embed/${item.id.videoId}?controls=1&autoplay=1&origin=https://www.youtube.com" frameborder="0" allowfullscreen></iframe>
+                        <iframe width = "600" height = "450" src ="http://www.youtube.com/embed/${item.id.videoId}?controls=1&autoplay=1&origin=https://www.youtube.com" frameborder="0" allowfullscreen></iframe>
 
                         `
                 $("#vidoes").append(video)
