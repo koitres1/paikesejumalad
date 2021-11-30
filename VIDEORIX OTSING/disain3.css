@@ -1,0 +1,33 @@
+.button31{
+    float: right;
+    overflow: hidden;
+    clear:both;
+    background-color:rgb(43, 255, 0);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 12px 22px;
+    text-decoration: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10%;
+    cursor: pointer;
+    box-shadow:0 9px rgb(59, 48, 165);
+    margin-bottom:3%;
+}
+.button31:hover{
+    background-color:rgb(177, 121, 38)
+}
+
+.button31:active{
+    border: 3px solid rgb(177, 0, 0);
+    background-color:rgb(177, 121, 38);
+    box-shadow:0 5px rgb(9, 1, 82);
+    transform: translateY(4px);
+    color:white;
+}
+.image{
+    position:absolute;
+    left: 550px;
+    top:270px;
+    border:5px solid white;
+}

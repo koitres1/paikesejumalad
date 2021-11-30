@@ -1,0 +1,58 @@
+.button20 {
+    float: left;
+    background-color:rgb(79, 230, 49);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-decoration: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20%;
+    cursor: pointer;
+    box-shadow:0 9px rgb(59, 48, 165);
+}
+
+.button20:hover{
+    background-color:rgb(177, 121, 38)
+}
+.button20:active{
+    border: 3px solid rgb(177, 0, 0);
+    background-color:rgb(177, 121, 38);
+    box-shadow:0 5px rgb(9, 1, 82);
+    transform: translateY(4px);
+    color:white;
+}
+
+
+.button21{
+    float: right;
+    overflow: hidden;
+    clear:both;
+    background-color:rgb(79, 230, 49);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 12px 22px;
+    text-decoration: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10%;
+    cursor: pointer;
+    box-shadow:0 9px rgb(59, 48, 165);
+    margin-bottom:3%;
+}
+.button21:hover{
+    background-color:rgb(177, 121, 38)
+}
+.button21:active{
+    border: 3px solid rgb(177, 0, 0);
+    background-color:rgb(177, 121, 38);
+    box-shadow:0 5px rgb(9, 1, 82);
+    transform: translateY(4px);
+    color:white;
+}
+
+#piltajastud{
+    display:inline;
+    margin-top:-300px;
+    margin-left:7%;
+}

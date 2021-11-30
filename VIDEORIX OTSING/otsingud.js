@@ -1,6 +1,6 @@
-// JavaScript source code
+// Michael Kevini Javascript
 $(document).ready(function () {
-    var API_KEY = "AIzaSyCyCbw7U9k7LhTpyWCyGJW66xbbuvR1E1g" //võti et oleks luba kasutada youtube API'd
+    var API_KEY = "AIzaSyCyCbw7U9k7LhTpyWCyGJW66xbbuvR1E1g" //vï¿½ti et oleks luba kasutada youtube API'd
 
 	var video = ''
 
@@ -11,13 +11,13 @@ $(document).ready(function () {
     $("form").submit(function (event) { //funktsioon toimub kui form esitatakse
         event.preventDefault()
 
-        var search = $("#search").val() //võtab kirjutatud otsingu
+        var search = $("#search").val() //vï¿½tab kirjutatud otsingu
 
         videoSearch(API_KEY, search, 1)
 
     function videoSearch(key, search, maxResults) {
 
-        $("#vidoes").empty() //tühjenab veebilehel vidoes ala
+        $("#vidoes").empty() //tï¿½hjenab veebilehel vidoes ala
         $.get("https://www.googleapis.com/youtube/v3/search?key=" + key + "&type=video&part=snippet&maxResults=" + maxResults + "&q=" + search, function (data) {
             console.log(data)
             //saadat youtube otsingu ja kirjutab vastu tuleva informatsiooni consooli
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     }
 	const settings = { //seadistame otsingu parameetrid
-		"async": false,//lülitame välja sest on vaja tulemusi kätte saada enne edasi liikumist
+		"async": false,//lï¿½litame vï¿½lja sest on vaja tulemusi kï¿½tte saada enne edasi liikumist
 		"crossDomain": true,
 		"url": "https://genius.p.rapidapi.com/search?per_page=1&q=" + search, //otsime laulu mida otsiti
 		"method": "GET",
@@ -51,7 +51,7 @@ $(document).ready(function () {
 	const settings1 = {
 		"async": false,
 		"crossDomain": true,
-		"url": "https://genius.p.rapidapi.com" + id, // saame tagavara genius api'lt kätte
+		"url": "https://genius.p.rapidapi.com" + id, // saame tagavara genius api'lt kï¿½tte
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "genius.p.rapidapi.com",
@@ -64,7 +64,7 @@ $(document).ready(function () {
 		console.log(response1)
 		console.log(id)
 		$("#tagavara").empty()
-		$("#tagavara").append("<p>Tagavara allikas</p>") //genius tagavara, sest sõnad ainult saadaval nende leheküljel
+		$("#tagavara").append("<p>Tagavara allikas</p>") //genius tagavara, sest sï¿½nad ainult saadaval nende lehekï¿½ljel
 		$("#tagavara").append(response1.response.song.embed_content)
 	});
 
@@ -104,7 +104,7 @@ $(document).ready(function () {
 			$("#lisa").empty()
 			$("#lisa").append(lisada)
 			$("#button").empty()
-			var olme = "<button class='button' id='nupp' onclick='show_element()' value='Ei näita'>OODATUD SÕNADE PUUDUMISEL VAJUTA SIIA</button>"
+			var olme = "<button class='button' id='nupp' onclick='show_element()' value='Ei nï¿½ita'>OODATUD Sï¿½NADE PUUDUMISEL VAJUTA SIIA</button>"
 			$("#button").append(olme)
 	});
 
